@@ -1,8 +1,9 @@
 <template>
   <v-app>
-    <header-component/>
-    <v-main>
-      <v-container>
+    <nav-component/>
+
+    <v-main class="pa-0">
+      <v-container class="pa-0">
         <nuxt />
       </v-container>
     </v-main>
@@ -10,11 +11,14 @@
 </template>
 
 <script>
-  import HeaderComponent from '~/components/HeaderComponent.vue'
+  import NavComponent from '~/components/NavComponent.vue'
 
   export default {
     components: {
-      HeaderComponent
+      NavComponent
     }
   }
 </script>
+
+<style lang="scss">
+</style>

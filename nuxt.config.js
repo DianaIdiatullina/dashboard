@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - rest',
-    title: 'rest',
+    titleTemplate: '%s - dashboard',
+    title: 'dashboard',
     htmlAttrs: {
       lang: 'en'
     },
@@ -45,7 +45,6 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false
     }
