@@ -84,7 +84,6 @@
 
     &__user {
       color: #AFBDD1;
-
     }
 
     .menu-list {
@@ -93,6 +92,8 @@
       }
 
       .v-list-item {
+        cursor: pointer;
+
         &__title {
           color: #56657F;
         }
